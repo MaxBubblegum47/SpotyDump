@@ -5,5 +5,8 @@ Nella prima text box va inserito il nome della'artista e nella seconda il numero
 
 Vanno inserite delle labels per le textbox e poi cambiata anche libreria per la GUI.
 
+Per ottenere il token della API di genius bisogna iscriversi a Genius e fare riferimento a questa documentazione: https://docs.genius.com/#/getting-started-h1
+
+Se in difficoltà fate riferimento anche a questa guida: https://github.com/johnwmillr/LyricsGenius
 
 (Il programma è stato creato su Spyder)
