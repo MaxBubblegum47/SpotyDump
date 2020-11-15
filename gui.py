@@ -56,9 +56,10 @@ def callback():
         song_name_save=data['songs'][i]['title'] + "_" + data['name'] + album_name
         
         
-        text_file = open(song_name_save.replace("/","_"), "w")
-        text_file.write(data['songs'][i]['lyrics'])
-        text_file.close()
+        if (data['songs'][i]['lyrics'] != None):
+            text_file = open(song_name_save.replace("/","_") + "_" + data['name'] + album_name, "w") #puoi anche fare artist.name
+            text_file.write(data['songs'][i]['lyrics'])
+            text_file.close()
     
     #pulire l'entry del testo
     e1.delete(0,'end')
