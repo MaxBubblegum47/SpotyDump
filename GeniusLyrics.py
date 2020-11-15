@@ -5,6 +5,10 @@ Created on Mon Nov  9 22:13:24 2020
 
 @author: lorenzostigliano
 """
+
+# questo file praticamente serve solamente per fare dei test di estrazione delle canzoni dal
+# file .json
+
 import json
 import lyricsgenius
 genius = lyricsgenius.Genius("dKdv-UTxwXPwypUw5d9n-ZJz9CTxK3R7V0D5BouXuGhfGQpgU8KASPgr6gw00qTm")
@@ -37,14 +41,13 @@ with open(file_path) as json_file:
         
         song_name_save=str(data['songs'][i]['title'])
         
-     
-        print("cursed: " + song_name_save.replace("/",""))
         
         if (data['songs'][i]['lyrics'] != None):
             text_file = open(song_name_save.replace("/","_") + "_" + data['name'] + album_name, "w") #puoi anche fare artist.name
             text_file.write(data['songs'][i]['lyrics'])
             text_file.close()
 
+# ho lasciato questo commmento perché stavo provando la tokenizzazione
 #tokens = nltk.word_tokenize(canzone)
 
 #print(tokens)
