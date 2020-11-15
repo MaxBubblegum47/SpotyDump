@@ -11,7 +11,7 @@ Created on Mon Nov  9 22:13:24 2020
 
 import json
 import lyricsgenius
-genius = lyricsgenius.Genius("dKdv-UTxwXPwypUw5d9n-ZJz9CTxK3R7V0D5BouXuGhfGQpgU8KASPgr6gw00qTm")
+genius = lyricsgenius.Genius("inserire token qui")
 import nltk
 import tkinter as tk
 from tkinter import filedialog
