@@ -9,4 +9,6 @@ Per ottenere il token della API di genius bisogna iscriversi a Genius e fare rif
 
 Se in difficoltà fate riferimento anche a questa guida: https://github.com/johnwmillr/LyricsGenius
 
+Consiglio: usa il formato ExFat per hard drive esterni o usb che vengono usate per fare backup che devono essere letti da molti sistemi operativi diversi.
+
 (Il programma è stato creato su Spyder)
