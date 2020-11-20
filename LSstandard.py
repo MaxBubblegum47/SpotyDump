@@ -2,7 +2,7 @@ from tkinter import *
 import os
 import json
 import lyricsgenius
-genius = lyricsgenius.Genius("Enter Toker Here")
+genius = lyricsgenius.Genius("Enter Token Here")
 import nltk
 import tkinter as tk
 from tkinter import filedialog
