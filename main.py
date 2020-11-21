@@ -71,11 +71,8 @@ def spotygo():
 
 
 root = tk.Tk()
-root.title("Spoty Scrapy")
+root.title("Lazy Song")
 
-#country=StringVar(root)
-#country.set("us")#default search region
-#ttk.OptionMenu(root,country, "us", "it", "global").pack()
 
 ttk.Button(root, text='Days of Search ', command=calendar).pack(padx=60, pady=10)
 ttk.Button(root, text='Choose Directory for saving lyrics', command=save_dir).pack(padx=60, pady=10)
