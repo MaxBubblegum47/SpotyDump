@@ -1,7 +1,7 @@
 import os
 import json
 import lyricsgenius
-genius = lyricsgenius.Genius("dKdv-UTxwXPwypUw5d9n-ZJz9CTxK3R7V0D5BouXuGhfGQpgU8KASPgr6gw00qTm")
+genius = lyricsgenius.Genius("Insert Genius Token Here")
 from string import whitespace
 
 def spoty_scouting(path):
