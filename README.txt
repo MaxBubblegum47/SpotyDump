@@ -1,15 +1,13 @@
-.-'''-..-------.    ,-----. ,---------. ____     __ ______      ___    _,---.    ,---.-------.  
-/ _     \  _(`)_ \ .'  .-,  '\          \\   \   /  |    _ `''..'   |  | |    \  /    \  _(`)_ \
-(`' )/`--| (_ o._)|/ ,-.|  \ _ `--.  ,---' \  _. /  '| _ | ) _  |   .'  | |  ,  \/  ,  | (_ o._)|
-(_ o _).  |  (_,_) ;  \  '_ /  | : |   \     _( )_ .' |( ''_'  ) .'  '_  | |  |\_   /|  |  (_,_) /
-(_,_). '.|   '-.-'|  _`,/ \ _/  | :_ _: ___(_ o _)'  | . (_) `. '   ( \.-.|  _( )_/ |  |   '-.-'
-.---.  \  |   |    : (  '\_/ \   ; (_I_)|   |(_,_)'   |(_    ._) ' (`. _` /| (_ o _) |  |   |
-\    `-'  |   |     \ `"/  \  ) / (_(=)_|   `-'  /    |  (_.\.' /| (_ (_) _|  (_,_)  |  |   |
-\       //   )      '. \_/``".'   (_I_) \      /     |       .'  \ /  . \ |  |      |  /   )
-`-...-' `---'        '-----'     '---'  `-..-'      '-----'`     ``-'`-'''--'      '--`---'
-
-
-
+   .-'''-..-------.    ,-----. ,---------. ____     __ ______      ___    _,---.    ,---.-------.  
+  / _     \  _(`)_ \ .'  .-,  '\          \\   \   /  |    _ `''..'   |  | |    \  /    \  _(`)_ \ 
+ (`' )/`--| (_ o._)|/ ,-.|  \ _ `--.  ,---' \  _. /  '| _ | ) _  |   .'  | |  ,  \/  ,  | (_ o._)| 
+(_ o _).  |  (_,_) ;  \  '_ /  | : |   \     _( )_ .' |( ''_'  ) .'  '_  | |  |\_   /|  |  (_,_) / 
+ (_,_). '.|   '-.-'|  _`,/ \ _/  | :_ _: ___(_ o _)'  | . (_) `. '   ( \.-.|  _( )_/ |  |   '-.-'  
+.---.  \  |   |    : (  '\_/ \   ; (_I_)|   |(_,_)'   |(_    ._) ' (`. _` /| (_ o _) |  |   |      
+\    `-'  |   |     \ `"/  \  ) / (_(=)_|   `-'  /    |  (_.\.' /| (_ (_) _|  (_,_)  |  |   |      
+ \       //   )      '. \_/``".'   (_I_) \      /     |       .'  \ /  . \ |  |      |  /   )      
+  `-...-' `---'        '-----'     '---'  `-..-'      '-----'`     ``-'`-'''--'      '--`---'      
+                                                                                                   
 Il programma Lazy Song permette di decidere un arco temporale in cui cercare i migliori artisti su Spotify e scaricarne in formato .txt un numero arbitrario di canzoni. Al momento per poter cambiare la regione di ricerca e il numero di canzoni bisogna accedere al codice; non è un'operazione complessa, ma presto implementeremo tali possibilità all'interno della gui.
 
 Per cambiare la regione bisogna andare alla riga 15 del file spotyscrapy.py mentre per cambiare il numero di canzoni da scaricare bisogna andare alla riga 11 di scout_lyrics.py e cambiare il valore di numb_canzoni (di default è impostato a 10).
