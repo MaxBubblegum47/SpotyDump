@@ -1,10 +1,10 @@
-   _____             __        ____                      
-  / ___/____  ____  / /___  __/ __ \__  ______ ___  ____ 
-  \__ \/ __ \/ __ \/ __/ / / / / / / / / / __ `__ \/ __ \
- ___/ / /_/ / /_/ / /_/ /_/ / /_/ / /_/ / / / / / / /_/ /
-/____/ .___/\____/\__/\__, /_____/\__,_/_/ /_/ /_/ .___/ 
-    /_/              /____/                     /_/         
-                                                                                                   
+  ____              _         ____                        
+ / ___| _ __   ___ | |_ _   _|  _ \ _   _ _ __ ___  _ __  
+ \___ \| '_ \ / _ \| __| | | | | | | | | | '_ ` _ \| '_ \ 
+  ___) | |_) | (_) | |_| |_| | |_| | |_| | | | | | | |_) |
+ |____/| .__/ \___/ \__|\__, |____/ \__,_|_| |_| |_| .__/ 
+       |_|              |___/                      |_|    
+                                              
 Il programma Lazy Song permette di decidere un arco temporale in cui cercare i migliori artisti su Spotify e scaricarne in formato .txt un numero arbitrario di canzoni. Al momento per poter cambiare la regione di ricerca e il numero di canzoni bisogna accedere al codice; non è un'operazione complessa, ma presto implementeremo tali possibilità all'interno della gui.
 
 Per cambiare la regione bisogna andare alla riga 15 del file spotyscrapy.py mentre per cambiare il numero di canzoni da scaricare bisogna andare alla riga 11 di scout_lyrics.py e cambiare il valore di numb_canzoni (di default è impostato a 10).
