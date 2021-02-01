@@ -1,12 +1,9 @@
-   .-'''-..-------.    ,-----. ,---------. ____     __ ______      ___    _,---.    ,---.-------.  
-  / _     \  _(`)_ \ .'  .-,  '\          \\   \   /  |    _ `''..'   |  | |    \  /    \  _(`)_ \ 
- (`' )/`--| (_ o._)|/ ,-.|  \ _ `--.  ,---' \  _. /  '| _ | ) _  |   .'  | |  ,  \/  ,  | (_ o._)| 
-(_ o _).  |  (_,_) ;  \  '_ /  | : |   \     _( )_ .' |( ''_'  ) .'  '_  | |  |\_   /|  |  (_,_) / 
- (_,_). '.|   '-.-'|  _`,/ \ _/  | :_ _: ___(_ o _)'  | . (_) `. '   ( \.-.|  _( )_/ |  |   '-.-'  
-.---.  \  |   |    : (  '\_/ \   ; (_I_)|   |(_,_)'   |(_    ._) ' (`. _` /| (_ o _) |  |   |      
-\    `-'  |   |     \ `"/  \  ) / (_(=)_|   `-'  /    |  (_.\.' /| (_ (_) _|  (_,_)  |  |   |      
- \       //   )      '. \_/``".'   (_I_) \      /     |       .'  \ /  . \ |  |      |  /   )      
-  `-...-' `---'        '-----'     '---'  `-..-'      '-----'`     ``-'`-'''--'      '--`---'      
+   _____             __        ____                      
+  / ___/____  ____  / /___  __/ __ \__  ______ ___  ____ 
+  \__ \/ __ \/ __ \/ __/ / / / / / / / / / __ `__ \/ __ \
+ ___/ / /_/ / /_/ / /_/ /_/ / /_/ / /_/ / / / / / / /_/ /
+/____/ .___/\____/\__/\__, /_____/\__,_/_/ /_/ /_/ .___/ 
+    /_/              /____/                     /_/         
                                                                                                    
 Il programma Lazy Song permette di decidere un arco temporale in cui cercare i migliori artisti su Spotify e scaricarne in formato .txt un numero arbitrario di canzoni. Al momento per poter cambiare la regione di ricerca e il numero di canzoni bisogna accedere al codice; non è un'operazione complessa, ma presto implementeremo tali possibilità all'interno della gui.
 
