@@ -5,7 +5,7 @@
  |____/| .__/ \___/ \__|\__, |____/ \__,_|_| |_| |_| .__/ 
        |_|              |___/                      |_|    
                                               
-Il programma Lazy Song permette di decidere un arco temporale in cui cercare i migliori artisti su Spotify e scaricarne in formato .txt un numero arbitrario di canzoni. Al momento per poter cambiare la regione di ricerca e il numero di canzoni bisogna accedere al codice; non è un'operazione complessa, ma presto implementeremo tali possibilità all'interno della gui.
+Il programma SpotyDump permette di decidere un arco temporale in cui cercare i migliori artisti su Spotify e scaricarne in formato .txt un numero arbitrario di canzoni. Al momento per poter cambiare la regione di ricerca e il numero di canzoni bisogna accedere al codice; non è un'operazione complessa, ma presto implementeremo tali possibilità all'interno della gui.
 
 Per cambiare la regione bisogna andare alla riga 15 del file spotyscrapy.py mentre per cambiare il numero di canzoni da scaricare bisogna andare alla riga 11 di scout_lyrics.py e cambiare il valore di numb_canzoni (di default è impostato a 10).
 
@@ -34,7 +34,7 @@ Postilla --> timeout=5 ERROR: a volte potrebbe succedere che genius vi cacci a m
                   __/ |
                  |___/
 
-The Lazy Song program allows you to decide a time frame in which to search for the best artists on Spotify and download an arbitrary number of songs in .txt format. At the moment, in order to change the search region and the number of songs, you need to access the code; that's not complex, but I will implement those possibilities within the gui.
+SpotyDump allows you to decide a time frame in which to search for the best artists on Spotify and download an arbitrary number of songs in .txt format. At the moment, in order to change the search region and the number of songs, you need to access the code; that's not complex, but I will implement those possibilities within the gui.
 
 To change the region you have to go to line 15 of the spotyscrapy.py file, while to change the number of songs to download you need to go to line 11 of scout_lyrics.py and change the value of numb_songs (by default it is set to 10).
 
