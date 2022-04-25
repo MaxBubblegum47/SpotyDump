@@ -1,4 +1,9 @@
-  ____              _         ____                        
+# NON FUNZIONA PIU'
+Praticamente spotify charts non funziona piu' in modo da permettere data scraping
+
+# NOT WORKING ANYMORE
+Spotify does not allow anymore data scraping
+____              _         ____                        
  / ___| _ __   ___ | |_ _   _|  _ \ _   _ _ __ ___  _ __  
  \___ \| '_ \ / _ \| __| | | | | | | | | | '_ ` _ \| '_ \ 
   ___) | |_) | (_) | |_| |_| | |_| | |_| | | | | | | |_) |
