@@ -3,13 +3,7 @@ Praticamente spotify charts non funziona piu' in modo da permettere data scrapin
 
 # NOT WORKING ANYMORE
 Spotify does not allow anymore data scraping
-____              _         ____                        
- / ___| _ __   ___ | |_ _   _|  _ \ _   _ _ __ ___  _ __  
- \___ \| '_ \ / _ \| __| | | | | | | | | | '_ ` _ \| '_ \ 
-  ___) | |_) | (_) | |_| |_| | |_| | |_| | | | | | | |_) |
- |____/| .__/ \___/ \__|\__, |____/ \__,_|_| |_| |_| .__/ 
-       |_|              |___/                      |_|    
-                                              
+
 Il programma SpotyDump permette di decidere un arco temporale in cui cercare i migliori artisti su Spotify e scaricarne in formato .txt un numero arbitrario di canzoni. Al momento per poter cambiare la regione di ricerca e il numero di canzoni bisogna accedere al codice; non è un'operazione complessa, ma presto implementeremo tali possibilità all'interno della gui.
 
 Per cambiare la regione bisogna andare alla riga 15 del file spotyscrapy.py mentre per cambiare il numero di canzoni da scaricare bisogna andare alla riga 11 di scout_lyrics.py e cambiare il valore di numb_canzoni (di default è impostato a 10).
@@ -30,14 +24,7 @@ Come potete vedere il programma è frutto di un doppio scraping: prima su spotif
 
 Postilla --> timeout=5 ERROR: a volte potrebbe succedere che genius vi cacci a malo modo durante le operazioni di scarping delle lyrics. Sto cercando di sistemare anche questo problema e come workaround al momento ho creato una versione del programma in cui gli si da in pasto una lista di cantanti (scritta a mano o ottenuta con qualche metodo di scraping) e qualora si blocchi su un determinato artista, rilancio il programmo tolgiendo manualmente dal file contenente i cantanti già processati. Non è il massimo, ma funziona per il momento. Il file per fare ciò si chiama LazyTerminator.py e la lista esempio si chiama singers_list.txt
 
-      _____            _ _     _       _____                   _       _   _
-     |  ___|          | (_)   | |     |_   _|                 | |     | | (_)
-     | |__ _ __   __ _| |_ ___| |__     | |_ __ __ _ _ __  ___| | __ _| |_ _  ___  _ __
-     |  __| '_ \ / _` | | / __| '_ \    | | '__/ _` | '_ \/ __| |/ _` | __| |/ _ \| '_ \
-     | |__| | | | (_| | | \__ | | | |   | | | | (_| | | | \__ | | (_| | |_| | (_) | | | |
-     \____|_| |_|\__, |_|_|___|_| |_|   \_|_|  \__,_|_| |_|___|_|\__,_|\__|_|\___/|_| |_|
-                  __/ |
-                 |___/
+# English
 
 SpotyDump allows you to decide a time frame in which to search for the best artists on Spotify and download an arbitrary number of songs in .txt format. At the moment, in order to change the search region and the number of songs, you need to access the code; that's not complex, but I will implement those possibilities within the gui.
 
